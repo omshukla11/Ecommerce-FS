@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Glassmorphism card effect */
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  transform: scale(0.75);
+  width: 50rem;
+}
